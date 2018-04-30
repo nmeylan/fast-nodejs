@@ -1,0 +1,14 @@
+{
+  "name": "node-benchmark",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "microtime": "^2.1.7"
+  },
+  "author": "Nicolas Meylan",
+  "license": "UNLICENSED",
+  "private": true
+}
