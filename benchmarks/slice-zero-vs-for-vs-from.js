@@ -16,7 +16,7 @@ module.exports = class SliceZeroVsForVsFrom extends Benchmark {
           clone[i] = array[i];
         }
       })
-      .add('slice', () => {
+      .add('from', () => {
         const clone = Array.from(array);
       })
       .on('cycle', function(event) {
